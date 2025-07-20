@@ -1,0 +1,192 @@
+{
+  "tools": {
+    "chatgpt": {
+      "name": "ChatGPT",
+      "optimizationStrategies": ["Be clear and specific in instructions.", "Use iterative refinement.", "Specify desired tone or format.", "Provide context and examples."]
+    },
+    "claude": {
+      "name": "Claude",
+      "optimizationStrategies": ["Emphasize safety and helpfulness.", "Provide detailed context.", "Ask for reasoned responses.", "Use structured formats."]
+    },
+    "gemini": {
+      "name": "Google Gemini",
+      "optimizationStrategies": ["Leverage multimodal inputs.", "Be precise with queries.", "Specify output structure.", "Include examples for complex tasks."]
+    },
+    "copilot": {
+      "name": "GitHub Copilot",
+      "optimizationStrategies": ["Describe code functionality clearly.", "Specify language and patterns.", "Use comments for context.", "Iterate on suggestions."]
+    },
+    "midjourney": {
+      "name": "Midjourney",
+      "optimizationStrategies": ["Add style descriptors.", "Specify aspect ratios with --ar.", "Use version parameters like --v 6.", "Include lighting and composition details."]
+    },
+    "dalle": {
+      "name": "DALL-E",
+      "optimizationStrategies": ["Describe scenes vividly.", "Specify art styles.", "Include composition elements.", "Avoid ambiguous terms."]
+    },
+    "perplexity": {
+      "name": "Perplexity AI",
+      "optimizationStrategies": ["Frame as research questions.", "Specify sources or depth.", "Ask for citations.", "Combine with follow-ups."]
+    },
+    "mistral": {
+      "name": "Mistral AI",
+      "optimizationStrategies": ["Use open-source friendly prompts.", "Be direct and concise.", "Specify response length.", "Incorporate examples."]
+    },
+    "grok": {
+      "name": "Grok",
+      "optimizationStrategies": ["Encourage witty responses.", "Use real-time knowledge queries.", "Be conversational.", "Specify humor level."]
+    },
+    "vscode": {
+      "name": "Visual Studio Code",
+      "optimizationStrategies": ["For code gen: Specify extensions or features.", "Describe desired snippets.", "Include file types.", "Request configuration tips."]
+    },
+    "intellij": {
+      "name": "IntelliJ IDEA",
+      "optimizationStrategies": ["Focus on Java-specific prompts.", "Request refactoring advice.", "Specify project structures.", "Ask for plugin recommendations."]
+    },
+    "webstorm": {
+      "name": "WebStorm",
+      "optimizationStrategies": ["Target JS/TS code.", "Describe web app features.", "Include framework integrations.", "Request debugging steps."]
+    },
+    "pycharm": {
+      "name": "PyCharm",
+      "optimizationStrategies": ["Python-specific queries.", "Request virtual env setups.", "Describe data science tasks.", "Ask for testing frameworks."]
+    },
+    "eclipse": {
+      "name": "Eclipse",
+      "optimizationStrategies": ["Java project prompts.", "Specify plugin usage.", "Request build configurations.", "Include version control integration."]
+    },
+    "sublime": {
+      "name": "Sublime Text",
+      "optimizationStrategies": ["Request snippet creation.", "Describe custom builds.", "Specify syntax highlighting.", "Ask for plugin setups."]
+    },
+    "atom": {
+      "name": "Atom",
+      "optimizationStrategies": ["Hackable editor prompts.", "Request package installations.", "Describe UI customizations.", "Include Git integrations."]
+    },
+    "vim": {
+      "name": "Vim",
+      "optimizationStrategies": ["Command-line focused.", "Request vimscript examples.", "Specify modes and keybindings.", "Ask for plugin configs."]
+    },
+    "emacs": {
+      "name": "Emacs",
+      "optimizationStrategies": ["Lisp-based customizations.", "Request mode configurations.", "Describe buffer management.", "Include extension advice."]
+    },
+    "react": {
+      "name": "React",
+      "optimizationStrategies": ["Component-based prompts.", "Specify hooks usage.", "Request state management.", "Include JSX examples."]
+    },
+    "vue": {
+      "name": "Vue.js",
+      "optimizationStrategies": ["Single-file components.", "Describe directives.", "Request store integrations.", "Specify routing."]
+    },
+    "angular": {
+      "name": "Angular",
+      "optimizationStrategies": ["TypeScript-focused.", "Request module setups.", "Describe services.", "Include dependency injection."]
+    },
+    "svelte": {
+      "name": "Svelte",
+      "optimizationStrategies": ["Compile-time optimizations.", "Request store usage.", "Describe transitions.", "Specify component props."]
+    },
+    "nextjs": {
+      "name": "Next.js",
+      "optimizationStrategies": ["Server-side rendering prompts.", "Request API routes.", "Describe static generation.", "Include authentication."]
+    },
+    "nuxt": {
+      "name": "Nuxt.js",
+      "optimizationStrategies": ["Vue server-side.", "Request module integrations.", "Describe middleware.", "Specify async data."]
+    },
+    "gatsby": {
+      "name": "Gatsby",
+      "optimizationStrategies": ["Static site gen.", "Request GraphQL queries.", "Describe plugins.", "Include SEO optimizations."]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "optimizationStrategies": ["Async patterns.", "Request module imports.", "Describe event loops.", "Include error handling."]
+    },
+    "express": {
+      "name": "Express.js",
+      "optimizationStrategies": ["Route definitions.", "Middleware usage.", "Request API endpoints.", "Include authentication."]
+    },
+    "mongodb": {
+      "name": "MongoDB",
+      "optimizationStrategies": ["Schema designs.", "Query optimizations.", "Request aggregation pipelines.", "Include indexing."]
+    },
+    "postgresql": {
+      "name": "PostgreSQL",
+      "optimizationStrategies": ["SQL queries.", "Request joins.", "Describe transactions.", "Include indexing strategies."]
+    },
+    "mysql": {
+      "name": "MySQL",
+      "optimizationStrategies": ["Relational queries.", "Request stored procedures.", "Describe normalization.", "Include performance tuning."]
+    },
+    "aws": {
+      "name": "Amazon AWS",
+      "optimizationStrategies": ["Service-specific configs.", "Request deployment scripts.", "Describe security groups.", "Include cost optimizations."]
+    },
+    "azure": {
+      "name": "Microsoft Azure",
+      "optimizationStrategies": ["Resource management.", "Request function apps.", "Describe DevOps pipelines.", "Include monitoring."]
+    },
+    "gcp": {
+      "name": "Google Cloud",
+      "optimizationStrategies": ["Compute engine prompts.", "Request Kubernetes setups.", "Describe BigQuery.", "Include AI integrations."]
+    },
+    "docker": {
+      "name": "Docker",
+      "optimizationStrategies": ["Dockerfile creations.", "Request compose files.", "Describe containerization.", "Include volume mounts."]
+    },
+    "kubernetes": {
+      "name": "Kubernetes",
+      "optimizationStrategies": ["Pod definitions.", "Request deployments.", "Describe services.", "Include scaling strategies."]
+    },
+    "git": {
+      "name": "Git",
+      "optimizationStrategies": ["Command sequences.", "Request branch strategies.", "Describe workflows.", "Include rebase vs merge."]
+    },
+    "github": {
+      "name": "GitHub",
+      "optimizationStrategies": ["Repo management.", "Request actions workflows.", "Describe PR templates.", "Include issues tracking."]
+    },
+    "gitlab": {
+      "name": "GitLab",
+      "optimizationStrategies": ["CI/CD pipelines.", "Request merge requests.", "Describe runners.", "Include project boards."]
+    },
+    "reactnative": {
+      "name": "React Native",
+      "optimizationStrategies": ["Mobile components.", "Request navigation setups.", "Describe state management.", "Include platform-specific code."]
+    },
+    "flutter": {
+      "name": "Flutter",
+      "optimizationStrategies": ["Widget trees.", "Request stateful widgets.", "Describe animations.", "Include package usages."]
+    },
+    "ionic": {
+      "name": "Ionic",
+      "optimizationStrategies": ["Hybrid app prompts.", "Request capacitor integrations.", "Describe UI components.", "Include PWA features."]
+    },
+    "figma": {
+      "name": "Figma",
+      "optimizationStrategies": ["Design system prompts.", "Request component libraries.", "Describe prototypes.", "Include collaboration tips."]
+    },
+    "sketch": {
+      "name": "Sketch",
+      "optimizationStrategies": ["Symbol creations.", "Request artboard setups.", "Describe plugins.", "Include export options."]
+    },
+    "adobexd": {
+      "name": "Adobe XD",
+      "optimizationStrategies": ["Prototype interactions.", "Request component states.", "Describe auto-animate.", "Include sharing features."]
+    },
+    "googleanalytics": {
+      "name": "Google Analytics",
+      "optimizationStrategies": ["Event tracking prompts.", "Request report queries.", "Describe segments.", "Include conversion tracking."]
+    },
+    "mixpanel": {
+      "name": "Mixpanel",
+      "optimizationStrategies": ["User analytics.", "Request funnel analysis.", "Describe cohorts.", "Include A/B testing."]
+    },
+    "hotjar": {
+      "name": "Hotjar",
+      "optimizationStrategies": ["Heatmap interpretations.", "Request survey designs.", "Describe recordings.", "Include feedback widgets."]
+    }
+  }
+}
